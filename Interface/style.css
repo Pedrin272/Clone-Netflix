@@ -29,19 +29,46 @@ nav a{
 }
 nav h2.logo{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: xx-large;
+    font-size: 30px;
     padding: 5px 100px 15px 15px;
 
 }
 /** Filme Principal**/
 .filme-principal{
-    font-size: x-large;
-    background-image:  url(https://www.themoviedb.org/t/p/original/ivhXH8jryWcZcEdUNW6ZKWz5b3y.jpg);
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,2px) 100%);
-
+    font-size: 18px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0,.75)100%) ,url(https://www.themoviedb.org/t/p/original/ivhXH8jryWcZcEdUNW6ZKWz5b3y.jpg);
+    background-size: cover;
+    
     height: 400px;
     width: auto;
+    padding: 10px 0px 0px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-section.container{
-    padding: 0 15px 15px 100px;
+.titulo-1{
+    font-size: 35px;
+}
+.botoes{
+    margin: 20px;
+}
+.botao{
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    color: white;
+
+    font-size: 12px;
+    margin-right: 25px;
+    padding: 10px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 10px;
 }
